@@ -6,6 +6,7 @@ def test_gpu_availability():
     """Test if GPU is available and print detailed information."""
     print("PyTorch GPU Test")
     print("Aloha World")
+    print(f"Python version: {sys.version}")
     print("=" * 50)
 
     # Check if CUDA is available
